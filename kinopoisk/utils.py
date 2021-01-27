@@ -7,7 +7,7 @@ import unicodedata
 
 from builtins import str
 
-from .request import Request
+from kinopoisk.request import Request
 
 
 class Manager(object):

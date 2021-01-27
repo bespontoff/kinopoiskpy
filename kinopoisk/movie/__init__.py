@@ -3,10 +3,10 @@ from __future__ import unicode_literals
 from future.utils import python_2_unicode_compatible
 from bs4 import BeautifulSoup
 
-from .sources import (
+from kinopoisk.movie.sources import (
     MovieLink, MoviePremierLink, MovieMainPage, MoviePostersPage, MovieTrailersPage, MovieSeries, MovieCareerLink,
     MovieCastPage, MovieRoleLink, MovieLikePage)
-from ..utils import KinopoiskObject, Manager
+from kinopoisk.utils import KinopoiskObject, Manager
 
 
 @python_2_unicode_compatible

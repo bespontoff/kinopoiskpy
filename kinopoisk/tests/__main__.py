@@ -1,7 +1,7 @@
 import unittest
 
-from .movie import MovieTest
-from .person import PersonTest
+from kinopoisk.tests.movie import MovieTest
+from kinopoisk.tests.person import PersonTest
 
 __all__ = [
     'MovieTest',

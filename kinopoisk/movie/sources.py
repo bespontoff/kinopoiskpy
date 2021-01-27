@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup, Tag
 from dateutil import parser
 from lxml import html
 
-from ..utils import KinopoiskPage, KinopoiskImagesPage
+from kinopoisk.utils import KinopoiskPage, KinopoiskImagesPage
 
 
 class MovieCareerLink(KinopoiskPage):

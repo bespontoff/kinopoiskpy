@@ -9,7 +9,7 @@ import re
 from builtins import str
 from lxml import html
 
-from ..utils import KinopoiskPage, KinopoiskImagesPage
+from kinopoisk.utils import KinopoiskPage, KinopoiskImagesPage
 
 
 class PersonCastLink(KinopoiskPage):

@@ -2,8 +2,8 @@
 from __future__ import unicode_literals
 from future.utils import python_2_unicode_compatible
 
-from .sources import PersonLink, PersonShortLink, PersonMainPage, PersonPhotosPage, PersonRoleLink, PersonCastLink
-from ..utils import KinopoiskObject, Manager
+from kinopoisk.person.sources import PersonLink, PersonShortLink, PersonMainPage, PersonPhotosPage, PersonRoleLink, PersonCastLink
+from kinopoisk.utils import KinopoiskObject, Manager
 
 
 @python_2_unicode_compatible

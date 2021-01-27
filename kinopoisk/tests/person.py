@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 from kinopoisk.person import Person
-from .base import BaseTest
+from kinopoisk.tests.base import BaseTest
 
 
 class PersonTest(BaseTest):
