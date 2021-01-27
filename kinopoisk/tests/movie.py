@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 from datetime import datetime
 
 from kinopoisk.movie import Movie
-from .base import BaseTest
+from kinopoisk.tests.base import BaseTest
 
 
 class MovieTest(BaseTest):

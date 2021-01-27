@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from .sources import (
     MovieLink, MoviePremierLink, MovieMainPage, MoviePostersPage, MovieTrailersPage, MovieSeries, MovieCareerLink,
     MovieCastPage, MovieRoleLink, MovieLikePage)
-from ..utils import KinopoiskObject, Manager
+from kinopoisk.utils import KinopoiskObject, Manager
 
 
 @python_2_unicode_compatible
